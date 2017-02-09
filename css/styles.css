@@ -1,11 +1,28 @@
-h1 {
-	color: red;
+body{
+  position: relative;
 }
 
-body {
-	background-color: green;
+.bg-darkgrey {
+  background-color: #432f3c
 }
 
-p {
-	color: orange;
+.narrow-bottom-shadow{
+  box-shadow: 0 3px 4px 0px black;
+}
+
+.rotate{
+  transition: transform .8s ease-in-out;
+  -ms-transition: -ms-transform .8s ease-in-out;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+}
+
+.rotate:hover{
+  transform:rotate(180deg);
+  -ms-transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+}
+
+.about-me{
+  width: 90%;
+  margin: 10px auto 10px auto;
 }
