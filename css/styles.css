@@ -1,13 +1,17 @@
 body{
   position: relative;
+  background-image: url("http://res.cloudinary.com/macskasa/image/upload/v1486988983/Wood-067_qweyra.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .bg-darkgrey {
-  background-color: #432f3c
+  background-color: #432f3c;
 }
 
 .narrow-bottom-shadow{
-  box-shadow: 0 3px 4px 0px black;
+  box-shadow: 0px 3px 3px 0px black;
 }
 
 .rotate{
