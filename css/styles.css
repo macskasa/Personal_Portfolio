@@ -1,9 +1,13 @@
 body{
   position: relative;
-  background-image: url("http://res.cloudinary.com/macskasa/image/upload/v1486988983/Wood-067_qweyra.jpg");
+}
+
+body,.blurground:before{
+  background-image: url("http://res.cloudinary.com/macskasa/image/upload/c_scale,w_1000/v1486988983/Wood-067_qweyra.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: 0;
 }
 
 .bg-darkgrey {
@@ -26,7 +30,40 @@ body{
   -webkit-transform:rotate(180deg);
 }
 
-.about-me{
+.blurground {
+  margin: auto;
+  position: relative;
+  padding: 10px 5px;
+  background: hsla(0,0%,100%,.4);
+  border-radius: 5px;
   width: 90%;
-  margin: 10px auto 10px auto;
+  box-shadow: 5px 3px 30px black;
+  overflow: hidden;
 }
+
+.blurground::before {
+  content: '';
+  margin: -20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  filter: blur(15px);
+  z-index: -1;
+}
+
+.main-title{
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 800;
+}
+
+p{
+  font-weight: 600;
+}
+
+.max400{
+  max-width: 400px
+}
+
