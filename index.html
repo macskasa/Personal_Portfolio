@@ -15,16 +15,29 @@
 	<script src="main.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-inverse sticky-top bg-darkgrey narrow-bottom-shadow">
-	<div class="d-inline-block">
-	<a target="_blank" class="navbar-brand px-2" href="#"><img src="https://res.cloudinary.com/macskasa/image/upload/v1486646609/Logo2_kddqe9.png" width="30" height="30" class="align-top rotate" alt="logo"></a>
-	</div>
+<nav class="navbar navbar-toggleable-md navbar-inverse sticky-top bg-darkgrey narrow-bottom-shadow">
+	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menuitems" aria-controls="menuitems" aria-expanded="false" aria-label="Menu Items">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a target="_blank" class="navbar-brand px-2" href="#">
+        <img src="https://res.cloudinary.com/macskasa/image/upload/v1486646609/Logo2_kddqe9.png" width="30" height="30" class="align-top rotate" alt="logo">
+    </a>
+    <div class="collapse navbar-collapse" id="menuitems">
+        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Disabled</a>
+            </li>
+        </ul>
+    </div>
 </nav>
 
 <div class="blurground my-3 p-3">
-	<div class="row">
-	<h1 class="main-title">About me</h1>
-	</div>
 	<div class="row align-items-center">
 	<div class="col-lg-9">
 		<p class="m-auto text-justify p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget bibendum risus, et tincidunt magna. Vivamus sollicitudin rutrum arcu, semper porttitor sem laoreet nec. Vivamus nec mi et libero fermentum porttitor sit amet non risus. Integer blandit mi a suscipit fermentum. Ut et aliquam mi, bibendum vestibulum quam. Praesent sollicitudin tristique lectus sed eleifend. Aenean in diam erat. Cras justo dolor, semper a ultrices eu, fermentum at mi. Phasellus eget dolor eros. Sed non
@@ -38,7 +51,7 @@
 
 <div class="blurground my-3 p-3">
 	<div class="row">
-		<h1 class="main-title">My projects</h1>
+		<h1 class="main-title">Portfolio</h1>
 	</div>
 	<div class="card-columns m-3">
 	<div class="card my-3">
