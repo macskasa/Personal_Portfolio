@@ -65,15 +65,15 @@ p{
 }
 
 .max300{
-    max-width: 300px;
+	max-width: 300px;
 }
 
 .black{
-    color: black;
+	color: black;
 }
 
 .w-60-100{
-    width: 60%;
+	width: 60%;
 }
 
 @media only screen and (max-width: 767px) {
@@ -101,8 +101,8 @@ p{
 	content: '';
 	filter: none;
 	}
-    
-    .w-60-100{
-    width: 100%;
-    }
+	
+	.w-60-100{
+	width: 100%;
+	}
 }
