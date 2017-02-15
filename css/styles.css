@@ -64,6 +64,18 @@ p{
 	font-weight: 600;
 }
 
+.max300{
+    max-width: 300px;
+}
+
+.black{
+    color: black;
+}
+
+.w-60-100{
+    width: 60%;
+}
+
 @media only screen and (max-width: 767px) {
 	body,{
 	background-image: url("http://res.cloudinary.com/macskasa/image/upload/c_scale,w_1000/v1486988983/Wood-067_qweyra.jpg");
@@ -71,14 +83,14 @@ p{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: 0;
-	background-color: lightgrey;
+	background-color: beige;
 	}
 	
 	.blurground {
 	margin: auto;
 	position: relative;
 	padding: 10px 5px;
-	background: lightgrey;
+	background: hsla(0,0%,75%,.7);
 	border-radius: 5px;
 	width: 90%;
 	box-shadow: 5px 3px 30px black;
@@ -89,4 +101,8 @@ p{
 	content: '';
 	filter: none;
 	}
+    
+    .w-60-100{
+    width: 100%;
+    }
 }

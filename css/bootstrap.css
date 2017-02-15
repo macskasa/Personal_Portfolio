@@ -4705,7 +4705,7 @@ tbody.collapse.show {
 	}
 }
 
-@media (min-width: 700px) {
+@media (min-width: 767px) {
 	.card-columns {
 	-webkit-column-count: 2;
 		-moz-column-count: 2;
